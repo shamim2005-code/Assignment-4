@@ -14,15 +14,6 @@ i.. Create element with document.createElement().
 ii. Add content/attributes/classes.
 iii. Insert using methods like appendChild(), append(), prepend(), or insertBefore().
 
-Example:
-
-```js
-const card = document.createElement("div");
-card.textContent = "New Job";
-card.classList.add("job-card");
-document.getElementById("jobsGrid").appendChild(card);
-```
-
 3. What is Event Bubbling? And how does it work?
 
 ans : Event bubbling means an event starts from the target element and then moves upward through parent elements.
